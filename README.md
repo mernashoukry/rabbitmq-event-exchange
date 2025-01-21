@@ -1,3 +1,7 @@
+git branch -m main <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
+git remote set-head origin -a
 # RabbitMQ Event Exchange
 
 ## This was migrated to https://github.com/rabbitmq/rabbitmq-server
